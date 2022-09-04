@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 RUN mkdir /images
 RUN mkdir /cache
 
-EXPOSE 5000
+EXPOSE 80
 
 COPY app /app
 
